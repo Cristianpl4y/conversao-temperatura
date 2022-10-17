@@ -41,7 +41,7 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          cristianpl4y/aula-conversao-temperatura:v1
+          cristianpl4y/aula-conversao-temperatura:${{github.run_number}}
           cristianpl4y/aula-conversao-temperatura:latest
       
       
